@@ -1,10 +1,3 @@
-//***** Projeto de Estágio de Engenharia *****
-//       Automação do Mini-Auditório EME
-//Aluno: Airton Fouchy
-//Curso: Engenharia da Computação
-//Semestre: 8º
-
-
 //** Inclusão das Bibliotecas **
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -22,17 +15,8 @@
 #define RELE8 18   //Relé 8
 
 //** Informações da rede Wi-Fi **
-//const char* ssid = "homewifi_88C";                 
-//const char* password =  "11369624";    
-
-//const char* ssid = "iPhone de Airton"; //SSID da Rede
-//const char* password =  "password"; //Senha da Rede
-
 const char* ssid = "Redmi-rsz"; //SSID da Rede
 const char* password =  "zapata1031"; //Senha da Rede
-
-//const char* ssid = "CAVG"; //SSID da Rede
-//const char* password =  "admincavg"; //Senha da Rede
 
 //** Informações do Broker MQTT **
 const char* mqttServer = "tailor.cloudmqtt.com"; //Server
